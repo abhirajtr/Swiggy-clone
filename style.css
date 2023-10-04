@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 540px;
+}
+.item1{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.item2{
+    overflow: hidden;
+}
+.logo{
+    height: 60px;
+    width: auto;
+}
+.banner{
+    height: auto;
+    width: 100%;
+}
+.links{
+    float: right;
+    height: 15px;
+    width: 15%;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    color: black;
+}
+.signup{
+    background-color: black;
+    color: white;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+h1{
+    margin-bottom: 0;
+    margin-top: 50px;
+}
+h2{
+    color: gray;
+    margin-top: 5px;
+}
+.locationinput{
+    width: 70%;
+    height: 30px;
+    background-color: rgb(226, 222, 222);
+    margin: 40px auto auto 0;
+    padding: 10px;
+    font-size: 18px;
+}
+.location{
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    top: 270px;
+    left: 400px;
+    padding: 12px;
+}
+button:hover{
+    background-color: rgb(171, 167, 167);
+}
+.findfood{
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0 2rem;
+    letter-spacing: 0;
+    color: white;
+    background-color: #fc8019;
+    line-height: 54px;
+}
+.cities{
+    font-size: 15px;
+    color: #a9abb2;
+    margin: 30px 0 10px 0;
+    letter-spacing: -.2px;
+    text-transform: uppercase;
+}
+.citieslist{
+    width: 570px;
+    margin-top: 20px;
+}
+.list{
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0 8px 0 0;
+    color: #6b6b78;
+    line-height: 1.5;
+    letter-spacing: -.3px;
+    text-decoration: none;
+}
+.list:nth-child(even){
+    color: #93959f;
+}
+
+.info-container{
+    height: 330px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2b1e16;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.info-container img{
+    width: 105px;
+    height: 199px;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 300px;
+}
+.text-head{
+    color: white;
+    text-align: center;
+}
+.text-detail{
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0 50px;
+}
+.section2{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    height: 570px;
+}
+.images{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.texts{
+    height: 570px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.texts h3{
+    font-size: 40px;
+    width: 300px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+.texts p{
+    width: 400px;
+    margin-bottom: 10px;
+}
+.icons{
+    margin-right: 42px;
+}
+.img2{
+    margin-top: 82px;
+}
+footer{
+    background-color: #000000;
+    width: 100%;
+}
+footer{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+.table{
+    margin-left: 70px;
+}
+table th{
+    color: #808080;
+    padding: 10px 250px 20px 0;
+}
+table td{
+    color: white;
+    padding-bottom: 10px;
+}
